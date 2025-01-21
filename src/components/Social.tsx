@@ -36,13 +36,9 @@ const SocialLinks = styled.div`
     color: #fff;
     text-decoration: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 0.25rem;
     align-items: center;
-    gap: 0.5rem;
-    @media (max-width: 768px) {
-      flex-direction: column;
-      gap: 0.25rem;
-    }
   }
 `;
 
@@ -57,10 +53,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 2rem;
+
   align-items: center;
   height: auto;
-  padding: 1rem;
+
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 0.25rem;

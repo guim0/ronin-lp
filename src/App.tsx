@@ -14,6 +14,9 @@ function App() {
       <Team />
       <Footer />
       <Social />
+      <p style={{ textAlign: "center", color: "#FFF" }}>
+        @Ronin Automotiva - 2026
+      </p>
     </>
   );
 }
