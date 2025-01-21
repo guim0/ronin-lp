@@ -10,7 +10,7 @@ const Social: React.FC = () => {
     { title: "Ninja Custom Cars", link: "ninjacustomcars" },
   ];
   return (
-    <Container>
+    <Container id="contato">
       <LogoContainer>
         <img src={LogoRonin} alt="" />
         <Text>

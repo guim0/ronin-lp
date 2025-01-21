@@ -52,7 +52,7 @@ const Header: React.FC = () => {
   const headerOptions = [
     { title: "Sobre", link: "#sobre" },
     { title: "Serviços", link: "#servicos" },
-    { title: "Profissionais", link: "/time" },
+    { title: "Profissionais", link: "#time" },
     { title: "Contato", link: "#contato" },
     { title: "Orçamento", link: "#orcamento" },
   ];
@@ -88,7 +88,7 @@ const Header: React.FC = () => {
           ))}
         </Links>
       )}
-      <TalkToUs>Fale Conosco</TalkToUs>
+      <TalkToUs href="#contato">Fale Conosco</TalkToUs>
     </HeaderContainer>
   );
 };

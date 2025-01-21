@@ -4,7 +4,7 @@ import BannerIMG from "../assets/banner.png";
 
 const About: React.FC = () => {
   return (
-    <Container banner={BannerIMG}>
+    <Container banner={BannerIMG} id="sobre">
       <TextContainer>
         <Title>
           Especialistas em Veículos <b>Honda</b> Clássicos

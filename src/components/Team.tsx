@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Team: React.FC = () => {
   return (
-    <Container>
+    <Container id="time">
       <Title>Profissionais</Title>
       <Text>
         Nossa equipe é formada por especialistas em veículos Honda clássicos,
