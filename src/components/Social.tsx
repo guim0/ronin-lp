@@ -7,7 +7,7 @@ const Social: React.FC = () => {
   const socials = [
     { title: "Ronin Automotiva", link: "ronin_automotiva" },
     { title: "VZDRS", link: "vzdrs" },
-    { title: "Ninja Custom Cars", link: "ninjacustomcars" },
+    // { title: "Ninja Custom Cars", link: "ninjacustomcars" },
   ];
   return (
     <Container id="contato">
